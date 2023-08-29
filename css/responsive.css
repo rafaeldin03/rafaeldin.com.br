@@ -1,0 +1,106 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+@media (min-width: 1500px) and (max-width: 1700px) {
+
+}
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    header {
+        padding: 20px 4%;
+    }
+    .menuPrincipal{
+        display: none !important;
+    }
+    .menu-mobile.abrir{
+        visibility: visible;
+        height: calc(100vh - 77px);
+    }
+
+    #btn-menu{
+        display: block;
+    }
+
+    .slider-content{
+        margin-top: 70px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    .slider-content{
+        margin-top: 70px;
+    }
+    .slider-bg .overlay-bg {
+        right: 2%;
+        bottom: 18px;
+        left: 12px;
+    }
+    .slider-content h1{
+font-size: 20px;
+    }
+    .slidesSobre{
+        padding: 0 40px!important;
+    }
+    .rowExp{
+        padding: 10px 0px;
+    }
+    .exp1 {
+        width: 100px;
+        height: 100px;
+        padding: 40px 0;
+        margin-bottom: 15px;;
+    }
+    header{
+        padding: 20px 4%;
+    }    
+    .menuPrincipal{
+        display: none !important;
+    }
+    .menu-mobile.abrir{
+        visibility: visible;
+        height: calc(100vh - 77px);
+    }
+
+    #btn-menu{
+        display: block;
+    }
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.slider-content h2 {
+	font-size: 60px;
+    letter-spacing: 0;
+    margin-bottom: 30px;
+}
+
+#scrollUp {
+	right: 20px;
+	bottom: 30px;
+}
+
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+}
